@@ -1,0 +1,106 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 9pt;
+    word-spacing: 1rem;
+    letter-spacing: 0.025rem;
+    margin: 0;
+     }
+a {
+    color: #515151;
+    text-decoration: none;
+}
+a:hover {
+    color: #515151;
+    text-decoration: underline;
+}
+.header {
+    display:grid;
+    grid-template-columns: 45% 45% 10%;
+}
+.header-left {
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    text-align: start;
+       }
+.header-right {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 0.9rem;
+    text-align: end;
+    }
+.signin {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 1rem;
+    right: 1.6rem;
+    text-align: end;
+    }
+.signin-button {
+    background-color: #4386f8; 
+    color: white;
+    padding: 8px 12px 8px 12px; 
+    border-radius: 0.2pc;
+    border-width: 0px;
+    font-weight: bold;
+}
+.centre_logo {
+    display:block;
+    margin-top: 14em;
+    margin-left: auto;
+    margin-right: auto;
+     }
+.searchbox {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: lightgray;
+    font-size: 1rem;
+    padding: 0.5rem;
+    }
+.button_wrapper {
+    text-align: center;
+}
+.buttons {
+    display:inline-block;
+    margin-top: 2em;
+    padding: 0.8rem;
+    color: #515151;
+    word-spacing: 0.3 rem;
+    letter-spacing: 0.025rem;
+    font-size: 11pt;
+    border-width: 0px;
+    border-radius: 0.3rem;
+    }
+.footer {
+    background-color: #f2f2f2;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    border-style: solid;
+    border-width: 0;
+    font-size: 10pt;
+     }
+.footer-left {
+    position:fixed;
+    bottom: 0;
+    width: 50%;
+    background-color: #f2f2f2;
+    padding: 0.8rem;
+    padding-left: 2rem;
+    text-align: start;
+       }
+.footer-right {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background-color: #f2f2f2;
+    padding: 0.8rem;
+    padding-right: 2rem;
+    text-align: end;
+     }

@@ -15,7 +15,7 @@ a:hover {
 }
 .header {
     display:grid;
-    grid-template-columns: 45% 45% 10%;
+    grid-template-columns: 45vw 45vw auto ;
 }
 .header-left {
     width: 100%;
@@ -25,19 +25,16 @@ a:hover {
        }
 .header-right {
     position: relative;
-    display: inline-block;
     width: 100%;
-    top: 0.9rem;
+    top: 0.8rem;
     text-align: end;
-    }
+        }
 .signin {
     position: relative;
-    display: inline-block;
-    width: 100%;
     top: 1rem;
-    right: 1.6rem;
-    text-align: end;
-    }
+    width: 100%;
+    margin-left: 1rem;
+           }
 .signin-button {
     background-color: #4386f8; 
     color: white;
@@ -45,6 +42,7 @@ a:hover {
     border-radius: 0.2pc;
     border-width: 0px;
     font-weight: bold;
+    float:left;
 }
 .centre_logo {
     display:block;

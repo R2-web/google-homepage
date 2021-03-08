@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Google</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        font-family: 'Roboto', sans-serif;
+        font-size: 9pt;
+        word-spacing: 1rem;
+        letter-spacing: 0.025rem;
+        margin: 0;
+         }
+    a {
+        color: #515151;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #515151;
+        text-decoration: underline;
+    }
+    .header {
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .header-left {
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-left: 1.5rem;
+        text-align: start;
+           }
+    .header-right {
+        position: relative;
+        width: 100%;
+        top: 0.9rem;
+        right: 1.6rem;
+        text-align: end;
+        }
+    .signin-button {
+        background-color: #4386f8; 
+        color: white;
+        padding: 8px 12px 8px 12px; 
+        border-radius: 0.2pc;
+        border-width: 0px;
+        font-weight: bold;
+    }
+    .centre_logo {
+        display:block;
+        margin-top: 14em;
+        margin-left: auto;
+        margin-right: auto;
+         }
+    .searchbox {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        border-width: 1px;
+        border-color: lightgray;
+        font-size: 1rem;
+        padding: 0.5rem;
+        }
+    .button_wrapper {
+        text-align: center;
+    }
+    .buttons {
+        display:inline-block;
+        margin-top: 2em;
+        padding: 0.8rem;
+        color: #515151;
+        word-spacing: 0.3 rem;
+        letter-spacing: 0.025rem;
+        font-size: 11pt;
+        border-width: 0px;
+        border-radius: 0.3rem;
+        }
+    .footer {
+        background-color: #f2f2f2;
+        display:grid;
+        grid-template-columns: 50% 50%;
+        border-style: solid;
+        border-width: 0;
+        font-size: 10pt;
+         }
+    .footer-left {
+        position:fixed;
+        bottom: 0;
+        width: 50%;
+        background-color: #f2f2f2;
+        padding: 0.8rem;
+        padding-left: 2rem;
+        text-align: start;
+           }
+    .footer-right {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 50%;
+        background-color: #f2f2f2;
+        padding: 0.8rem;
+        padding-right: 2rem;
+        text-align: end;
+         }
+
+</style>
+
+<body>
+    <div class="header">
+            <div class="header-left">
+                 <a href="about.htm"> About</a>
+                <a href="store.htm"> Store</a>
+            </div>
+            <div class="header-right">
+                <a href="about.htm"> Gmail</a>
+                <a href="store.htm"> Images</a>
+                <a href="apps.htm"> <image style="position:relative; top:0.4rem;" width="22" src="images/apps.png"></a>
+                <button class="signin-button"> Sign in</button>
+           </div>
+
+    </div>
+
+    <div>
+    <img class="centre_logo" src="images/logo.png" alt="The google logo">
+    <br>
+    <form class="button_wrapper">
+        <label for="search"></label>
+        <input class="searchbox" type="text" size= "40" name="search">
+        <input class="buttons" type="submit" value="Google Search">
+        <input class="buttons" type="button" value="I'm feeling lucky!">
+   </form>
+      </div>
+
+   <div class="footer">
+    <div class="footer-left">
+        <a href="advertising.htm"> Advertising</a>
+        <a href="business.htm"> Business</a>
+        <a href="how.htm" style="word-spacing: 0rem;">How Search Works</a>
+    </div>
+    <div class="footer-right">
+        <a href="Privacy.htm"> Privacy</a>
+        <a href="terms.htm"> Terms</a>
+        <a href="settings.htm"> Settings</a>
+
+</div>
+</body>
